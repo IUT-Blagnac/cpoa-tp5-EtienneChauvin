@@ -102,15 +102,15 @@ endif::[]
 //------------------------------------ 
 == {assignment}
 
-{lastName}:: BRUEL
+{lastName}:: CHAUVIN
 
-{firstName}:: Jean-Michel
+{firstName}:: Etienne
 
 {group} #::
 
 [%interactive]
-- [X] {Enseignants}
-- [ ] 1
+- [ ] {Enseignants}
+- [X] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
