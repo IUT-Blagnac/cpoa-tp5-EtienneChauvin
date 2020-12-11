@@ -35,12 +35,12 @@ public class PyChartObserver extends JPanel implements Observer {
         super.paint(g);
         int radius = 100;
 
-        //first compute the total number of students
+        // first compute the total number of students
         double total = 0.0;
         for (int i = 0; i < courseData.size(); i++) {
             total += courseData.get(i).getNumOfStudents();
         }
-        //if total == 0 nothing to draw
+        // if total == 0 nothing to draw
         if (total != 0) {
             double startAngle = 0.0;
             for (int i = 0; i < courseData.size(); i++) {
